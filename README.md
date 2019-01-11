@@ -19,6 +19,8 @@ Git squash
     pick - оставить коммит
     squash - слить коммит
 
+    $ git push --force origin <branch>
+
 Показать все коммит сделанные в ветке
     $ git cherry -v master
     $ git cherry -v master | wc -l # кол-во коммитов
