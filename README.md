@@ -8,6 +8,12 @@ Build
 
     $ rebar3 compile
 
+Debug
+-----
+% _ = dbg:tracer(),
+% _ = dbg:tpl({ff_withdrawal, '_', '_'}, []),
+% _ = dbg:p(all, [c, timestamp]),
+% dbg:stop_clear(),
 
 Git
 -----
